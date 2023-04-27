@@ -1,7 +1,6 @@
-﻿# implementacao-Metodo-Simplex
- #
+﻿# Implementacao Metodo Simplex
  # Para usar, existem duas formas, a implementação para prompt e implementação em formato aplicativo. A primeira forma se encontra no MainSimplex.java, e a outra, MainSimplexGUI.java.
- # Para utilizar a classe Simplex, a tabela (matriz/vetor de duas dimenções) deve se encontrar da seguinte forma:
+  Para utilizar a classe Simplex, a tabela (matriz/vetor de duas dimenções) deve se encontrar da seguinte forma:
   A primeira coluna deve ser reservada aos valores de Z;
   A última coluna deve ser reservada para os resultados, tando da função objetivo(normalmente 0) quanto para as inequações;
   A primeira linha, deve conter os valores de coficientes da função objetiva;
