@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Implementação do Método Simplex</title>
 </head>
 <body>
 	<h1>Implementação do Método Simplex</h1>
@@ -32,7 +31,11 @@ s.a. 2 X1 + 1 X2 >= 1000
 {  0,   2,  1, 1,  0,  0,  1000},
 {  0,   1,  1, 0,  1,  0,  800},
 {  0,   1,  0, 0,  0,  1,  400},
-simplex.solveSimplex();</code></pre>
+</code></pre>
+<p>Agora para implementar no codigo, devemos fazer assim:</p>
+<pre><code>Simplex simplex = new Simplex(simplexMatrix);
+simplex.solveSimplex();
+</code></pre>
  <p>Caso esteja utilizando a implementação com interface gráfica, utilize o método <code>solveSimplexGUI()</code>, que retorna uma lista de modificações a serem mostradas na tela.</p>
 
 <p>O programa irá realizar os cálculos necessários e imprimir o passo a passo, juntamente com a resolução final.</p>
