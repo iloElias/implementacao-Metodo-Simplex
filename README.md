@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Implementação do Método Simplex</title>
+<title>Implementação do Método Simplex</title>
 </head>
 <body>
 	<h1>Implementação do Método Simplex</h1>
