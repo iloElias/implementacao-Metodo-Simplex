@@ -21,8 +21,8 @@
 
 <pre><code>Max Z: 4 X1 + 3 X2
 s.a. 2 X1 + 1 X2 >= 1000
-1 X1 + 1 X2 >= 800
-1 X1 >= 400
+     1 X1 + 1 X2 >= 800
+     1 X1        >= 400
 </code></pre>
  <p>Neste caso, a matriz deve ser construída da seguinte forma:</p>
 
