@@ -27,10 +27,11 @@ s.a. 2 X1 + 1 X2 >= 1000
  <p>Neste caso, a matriz deve ser construída da seguinte forma:</p>
 
 <pre><code>float[][] simplexMatrix = {
-{  1,  -4, -3, 0,  0,  0,  0},
-{  0,   2,  1, 1,  0,  0,  1000},
-{  0,   1,  1, 0,  1,  0,  800},
-{  0,   1,  0, 0,  0,  1,  400},
+    {  1,  -4, -3, 0,  0,  0,  0},
+    {  0,   2,  1, 1,  0,  0,  1000},
+    {  0,   1,  1, 0,  1,  0,  800},
+    {  0,   1,  0, 0,  0,  1,  400}
+};
 </code></pre>
 <p>Agora para implementar no codigo, devemos fazer assim:</p>
 <pre><code>Simplex simplex = new Simplex(simplexMatrix);
